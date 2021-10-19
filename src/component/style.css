@@ -1,0 +1,41 @@
+.Container{
+    margin:0 20px;
+}
+
+.container_blue{
+    background: rgb(235, 231, 231);
+    
+}
+.container_black{
+    background: white;
+    
+}
+.container_blue:hover{
+    background: gray;
+}
+.container_black:hover{
+    background: gray;
+}
+
+
+.customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .customers td, .customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: justify;
+    width: 35.33%;
+  }
+  
+  
+  .customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
