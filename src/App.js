@@ -1,5 +1,12 @@
 import './App.css';
-import TableComp from './component/TableComp';
+// import Button from './component/CssStyleSheet/Button/Button';
+// import CssStyleSheet from './component/CssStyleSheet/CssStyleSheet';
+// import InlineCass from './component/CssStyleSheet/InlineCss';
+// import ControlFrom from './component/Form/ControlForm';
+import RegistrationFormComp from './component/Form/Task/RegistrationFormComp';
+// import InfoCamp from './component/InfoComp';
+
+// import TableComp from './component/TableComp';
 // import ListRenderComp from './component/ListRenderComp';
 // import PrevStateComp from './component/PrevStateComp';
 // import ParentComp from './component/ParentComp';
@@ -48,7 +55,13 @@ function App() {
     
     {/* <PrevStateComp /> */}
     {/* <ListRenderComp /> */}
-      <TableComp />
+      {/* <TableComp /> */}
+      {/* < InfoCamp /> */}
+      {/* <CssStyleSheet /> */}
+      {/* <InlineCass /> */}
+      {/* <Button /> */}
+      {/* <ControlFrom /> */}
+      <RegistrationFormComp />
     </div>
   );
 }
